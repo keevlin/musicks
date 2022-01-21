@@ -1,0 +1,60 @@
+body{
+font-family: "Helvetica", "Lucida Grande", sans-serif;
+color: #3D3D3D;
+width: 940px;
+margin-left: auto;
+margin-right: auto;
+}
+.titulo{
+	background:#E1EDF2;
+	padding: 10px;
+	font-size: 32px;
+}
+.subtitulo {
+	border-bottom: 2px solid black;
+}
+
+figure{
+	margin: 30px;
+	padding: 15px;
+	
+
+	text-align: center;
+
+	background-color: whitesmoke;
+	border: 1px solid lightgrey;
+}
+/* margin da leganda */
+figcaption{
+	margin-top: 10px;
+}
+
+/* terá um espaçamento da direita e esquerda, conforme a pagina */
+.foto-matriz{
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* imagem familia ficará a direita, juntamente com o texto */
+.foto-familia{
+	width: 275px;
+	float: right;
+}
+
+/* irá herdar a img, figcaption, irá pegar configuração do pai figure */
+figure img {
+	width: 100%;
+}
+
+.rodape{
+	position: absolute;
+	bottom: 0;
+	background-color: rgb(7, 7, 139);
+	color: #fff;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+
+}
+
